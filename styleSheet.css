@@ -1,0 +1,53 @@
+/* Header */
+img {
+	max-width: 70%;
+	display: inline-block;
+}
+header {
+	float: left;
+	width: 100%;
+	background-color: gray;
+}
+/* Nav */
+nav {
+	float: right;
+	width: 70%;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+nav li {
+	display: inline;
+	font-size: 1em;
+	margin-right: 20px;
+}
+nav li a {
+	display: inline-block;
+	text-align: right;
+	text-decoration: none;
+}
+/* Main */
+body {
+	background-color: #fff;
+}
+content {
+	float: right;
+	width: 70%;
+}
+sidebar {
+	float: left;
+	width: 30%;
+}
+h1 {
+	text-align: center;
+}
+/* Footer */
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	color: #fff;
+	padding: 0 1em;
+}
